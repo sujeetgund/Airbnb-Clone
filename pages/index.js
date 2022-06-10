@@ -7,7 +7,10 @@ import LargeCard from '../components/LargeCard'
 import MediumCard from '../components/MediumCard'
 import SmallCard from '../components/SmallCard'
 
+
 export default function Home({exploreData, cardsData}) {
+ 
+
   return (
     <div>
     <Head>
@@ -47,8 +50,8 @@ export default function Home({exploreData, cardsData}) {
 
 
       {/* Large Card */}
-      <section>
-        <LargeCard img={'/largecard.webp'} title="The Greatest Outdoors" description={'Wishlists created by Airbnb'} buttonText="Get Inspired" />
+      <section  >
+        <LargeCard  img={'/largecard.webp'} title="The Greatest Outdoors" description={'Wishlists created by Airbnb'} buttonText="Get Inspired" />
       </section>
 
     </main>
